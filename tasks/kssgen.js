@@ -2,7 +2,7 @@
 var path = require('path');
 
 module.exports = function (grunt) {
-    grunt.registerMultiTask('livestyle', 'Generate a style guide using kss-node.', function () {
+    grunt.registerMultiTask('kssgen', 'Generate a style guide using kss-node.', function () {
         var done = this.async();
 
         var taskCount = this.files.length;

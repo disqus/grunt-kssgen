@@ -1,8 +1,8 @@
 {
-  "name": "grunt-livestyle",
+  "name": "grunt-kssgen",
   "description": "KSS styleguide generator for Grunt.",
-  "version": "1.0.0",
-  "homepage": "https://github.com/disqus/grunt-livestyle",
+  "version": "1.0.1",
+  "homepage": "https://github.com/disqus/grunt-kssgen",
   "author": {
     "name": "Disqus Inc.",
     "email": "opensource@disqus.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/disqus/grunt-livestyle.git"
+    "url": "git://github.com/disqus/grunt-kssgen.git"
   },
   "bugs": {
-    "url": "https://github.com/disqus/grunt-livestyle/issues"
+    "url": "https://github.com/disqus/grunt-kssgen/issues"
   },
   "licenses": [
     {

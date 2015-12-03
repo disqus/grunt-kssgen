@@ -1,9 +1,9 @@
-# grunt-livestyle
+# grunt-kssgen
 KSS styleguide generator for grunt. - Alternative to grunt-kss since it is dead
 
-[![Build Status](https://secure.travis-ci.org/disqus/grunt-livestyle.svg?branch=master)](http://travis-ci.org/disqus/grunt-livestyle)
-[![NPM version](https://badge.fury.io/js/grunt-kss.svg)](http://badge.fury.io/js/grunt-kss)
-[![Dependency Status](https://david-dm.org/disqus/grunt-livestyle.svg)](https://david-dm.org/disqus/grunt-livestyle)
+[![Build Status](https://secure.travis-ci.org/disqus/grunt-kssgen.svg?branch=master)](http://travis-ci.org/disqus/grunt-kssgen)
+[![NPM version](https://badge.fury.io/js/grunt-kssgen.svg)](http://badge.fury.io/js/grunt-kssgen)
+[![Dependency Status](https://david-dm.org/disqus/grunt-kssgen.svg)](https://david-dm.org/disqus/grunt-kssgen)
 
 > KSS styleguide generator for Grunt.
 
@@ -11,23 +11,23 @@ KSS styleguide generator for grunt. - Alternative to grunt-kss since it is dead
 This plugin requires Grunt `~0.4.x`
 
 ```shell
-npm install grunt-kss --save-dev
+npm install grunt-kssgen --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-kss');
+grunt.loadNpmTasks('grunt-kssgen');
 ```
 
-## The "livestyle" config and an example task
+## The "kssgen" config and an example task
 
 ### Overview
-To set up the livestyle config, add a section named `livestyle` to the data object passed into `grunt.initConfig()`, in your project's Gruntfile.
+To set up the kssgen config, add a section named `kssgen` to the data object passed into `grunt.initConfig()`, in your project's Gruntfile.
 
 ```js
 grunt.initConfig({
-  livestyle: {
+  kssgen: {
     options: {
       css: '/path/to/style.css',
     },
@@ -45,12 +45,12 @@ Then, once you've added the config information above, you can add the kss build 
 ```js
 grunt.registerTask('styleguide', [
   // Add other tasks here if needed
-  'livestyle'
+  'kssgen'
   // Add other tasks here if needed
 ]);
 ```
 
-Finally, you can call livestyle by running `grunt styleguide` (or directly by `grunt livestyle`).
+Finally, you can call kssgen by running `grunt styleguide` (or directly by `grunt kssgen`).
 
 ### Options
 
