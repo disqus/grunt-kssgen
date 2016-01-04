@@ -26,7 +26,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "node -e \"require('grunt').cli()\" ./node_modules/grunt/lib/grunt.js test"
   },
   "dependencies": {
     "kss": "^2.0.1"
