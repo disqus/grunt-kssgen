@@ -1,5 +1,7 @@
 # grunt-kssgen
-KSS styleguide generator for grunt. - Alternative to grunt-kss since it is dead
+~~KSS styleguide generator for grunt. - Alternative to grunt-kss since it is dead~~
+
+DEPRECATED: [grunt-kss](https://github.com/kss-node/grunt-kss) is back and much better maintained than this one so go use that instead please :)
 
 [![Build Status](https://secure.travis-ci.org/disqus/grunt-kssgen.svg?branch=master)](http://travis-ci.org/disqus/grunt-kssgen)
 [![NPM version](https://badge.fury.io/js/grunt-kssgen.svg)](http://badge.fury.io/js/grunt-kssgen)
