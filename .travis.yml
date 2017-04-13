@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - "4.2"
+- '4'
+- '6'
+- '7'
+deploy:
+  provider: npm
+  email: opensource@disqus.com
+  on:
+    tags: true
+  api_key:
+    secure: n0G9Nla2qkeH3M1SZem/Q296SF4FOqmLX3QMtoERmqFW/g8jVlAbgj9/++hb/s1N3qXz+BwzqsPlKzFYkaU6ZLzf2BtYcXoKP5ckmWclgvgG6GRTcsEN0hE0j+VNx0WzdOwmI3idtWJfm7W5OHe7gUdMJjqELlxJJOCXfTI8059jqSMQOn0M38hqygyR6l8dekykzBNjqf4ehHFffugyEJ4ppqfvc+AYJOBfhxCMCikfNDPAA0FrWL6rahSxbGeKVbf5qks5UKilwOmvHVc1PtpP68W7SJID2isYdsC10a5OkzykV+jVHi5xG30wTn7BTFg+3fMeHal3n2hSsbbyDth4wjI86Fv2JkmDgOBmPUDD2d+n5wJub0xe/OJE8IeU6U3uaBIXG+DlWJopPM02sxYKzbSmDS4nBkAXpU8Mx4LSDRz3dWjk21pL4HxNYuGMqDsGP5gXTIpj/bLWdCazZMupWJ5NEyT6kOOzxeByEZUVUfRw+KwMBZrIefbnrcmXNjpG5J+DU4mIiow5UpOHuDPJPANCptPdrJ+OwFttNmZ+CqLuqyChKLXm+VXr/yXkh241X2mX6K3rB70OINlJpOPj2Z/37KarFthI2TnBwhWFAlNbqiA4Y7MuHwZ/QqeZ74b5j/fwzWd8G1rK8LrFw9Kpm5fl6LXy2QbAzMYrDgY=
